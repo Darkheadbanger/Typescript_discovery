@@ -74,4 +74,4 @@ console.log(digitalItems.description());
 Vous pouvez créer des instances de PhysicalItem et de DigitalItem en utilisant leur constructeur et en appelant leur méthode description.
 
 Une classe abstraite en Typescript est une classe qui ne peut pas être instanciée directement. Elle sert de modèle pour les classes concrètes qui étendent cette classe et qui doivent implémenter ses méthodes abstraites.
-Les méthodes abstraites sont des méthodes qui n'ont pas de corps et qui doivent être implémentées par les classes concrètes qui étendent la classe abstraite.*/ 
+Les méthodes abstraites sont des méthodes qui n'ont pas de corps et qui doivent être implémentées par les classes concrètes qui étendent la classe abstraite.*/
