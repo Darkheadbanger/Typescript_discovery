@@ -45,3 +45,9 @@ let aFunction = (arg) => {
 };
 // Appel de la fonction avec un générique spécifié
 let result = aFunction("hello");
+class Sellable {
+    cart = [];
+    addToCart(products) {
+        this.cart.push(products);
+    }
+}

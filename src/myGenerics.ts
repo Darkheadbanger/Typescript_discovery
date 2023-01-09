@@ -53,7 +53,26 @@ Cela nous permet de travailler avec différents types de valeurs sans avoir à �
 let aFunction = <T>(arg: T): T => {
   // code de la fonction ici
   return arg;
-}
+};
 
 // Appel de la fonction avec un générique spécifié
 let result = aFunction<string>("hello");
+
+interface Quiz {
+  name: string;
+  type: string;
+}
+
+interface Course {
+  name: string;
+  author: string;
+  subject: string;
+}
+
+class Sellable<T> {
+  public cart: T[] = [];
+
+  addToCart(products: T) {
+    this.cart.push(products);
+  }
+}
