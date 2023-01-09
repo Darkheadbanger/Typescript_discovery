@@ -38,3 +38,22 @@ Lors de l'appel de la fonction, vous devez spécifier le type que vous souhaitez
 Ici, nous appelons la fonction avec des listes de différents types de valeurs (nombres, chaînes de caractères et dates) et nous spécifions le type à utiliser pour T en conséquence (number, string et Date). 
 Cela nous permet de travailler avec différents types de valeurs sans avoir à écrire de code spécifique pour chaque type.
 */
+
+// function aFunction<T, U>(arg1: T, arg2: U): T{
+//   // code de la fonction ici
+// }
+// Nous pouvons créer plusieurs generics
+
+// On peut aussi utilise rles generics pour les fonctions fléches et un tableau
+
+// Déclaration d'un tableau de génériques
+// let valuesArr: Array<T> = [];
+
+// Utilisation d'un générique dans une fonction fléchée
+let aFunction = <T>(arg: T): T => {
+  // code de la fonction ici
+  return arg;
+}
+
+// Appel de la fonction avec un générique spécifié
+let result = aFunction<string>("hello");
