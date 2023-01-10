@@ -19,7 +19,7 @@ type Shape = Circle | Square | Rectangle;
 function getArea(shape: Shape) {
   switch (shape.kind) {
     case "circle":
-      return Math.PI * shape.radius ** 2;
+      return Math.PI * shape.radius ** 2; // ** puissance 2^2 par ex
     case "square":
       return shape.side * shape.side;
     case "rectangle":
